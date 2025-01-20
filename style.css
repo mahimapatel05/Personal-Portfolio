@@ -1,0 +1,204 @@
+#main-container{
+    background-color:rgb(31,31,33);
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+  #welcome{
+    padding-top:20px;
+  }
+  
+  #welcome-section{
+    text-align:center;
+    font-family:sans-serif;
+    background-color:cyan;
+    color:white;
+    height:100px;
+    font-size:40px;
+  }
+  
+  #projects{
+    text-align:center;
+    color:white;
+    font-size:20px;
+    font-family:sans-serif;
+  }
+  
+  #project-title{
+    padding-bottom:20px;
+  }
+  
+  .project-tile{
+    display:flex;
+  }
+  
+  #project1{
+    width:80%;
+    height:70%;
+    padding-left:10px;
+    padding-right:10px;
+  }
+  
+  #detail{
+    padding-left:150px;
+    padding-right:215px;
+    text-align:center;
+  }
+  
+  #description{
+    text-align:center;
+    color:white;
+    width:100%;
+     height:30%;
+  }
+  
+  #navbar{
+    position:sticky;
+    top:0;
+    width:100%
+  }
+  
+  #subdiv{
+    font-size:40px;
+    margin:auto;
+  }
+  
+  #nav-div{
+    background-color:black;
+    height:60px;
+    text-align:center;
+    display:flex;
+  }
+  
+  @media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:link{
+    color:cyan;
+  }
+  
+  a:visited{
+    color:cyan;
+  }
+  
+  a:active{
+    color:red;
+  }
+  
+  
+  a:hover{
+    color:darkcyan;
+  }
+  
+  #card{
+    height:500px;
+  }
+  
+  #marks{
+    height:300px;
+    width:100%;
+    padding-top:40px;
+  }
+  
+  table{
+    border:solid 0px red;
+    border-collapse: collapse;
+    color:white;
+    width:70%;
+    margin:auto;
+    height:70%;
+    text-align:center;
+    font-size:15px;
+  }
+  
+  th,td{
+    border: 0px solid red;
+  }
+  
+  #intro{
+    text-align:center;
+    color:White;
+    padding-top:8px;
+    font-size:50px;
+  }
+  
+  #size{
+    width:80%;
+  }
+  
+  #academic{
+    font-size:30px;
+  }
+  
+  #fix{
+    padding-top:15px;
+  }
+  
+  #skills{
+    margin-left:30%;
+    margin-right:30%;
+  }
+  
+  #lists{
+    font-size:20px;
+    color:white;
+    paddind-top:5px;
+  }
+  
+  li{
+    padding-top:10px;
+  }
+  
+  
+  #contact-container{
+    height:300px;
+    display:flex;
+  }
+  
+  #box1{
+    background-color:#0A243E;
+    width:35%;
+    text-align:center;
+    padding-top:50px;
+  }
+  
+  #box2{
+    background-color:blue;
+    text-align:center;
+    background-image: linear-gradient(-90deg, white 0%, #0A243E 100%);
+    width:75%;
+  }
+  
+  .fa{
+    padding-top:40px;
+  }
+  
+  
+  #declaration{
+    color:#0A243E;
+    font-size:40px;
+  }
+  
+  #text{
+    font-size:20px;
+    width:70%;
+    padding-left:15%;
+  }
